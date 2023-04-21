@@ -1,0 +1,33 @@
+
+#card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #card-area img {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #aaa;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #card-area img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
